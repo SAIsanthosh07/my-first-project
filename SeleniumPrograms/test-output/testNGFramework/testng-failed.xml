@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testNGFramework]">
+  <test name="Product_store_contact(failed)">
+    <classes>
+      <class name="testNGFramework.ProductStoreContact">
+        <methods>
+          <include name="b_contact"/>
+          <include name="c_alert"/>
+        </methods>
+      </class> <!-- testNGFramework.ProductStoreContact -->
+    </classes>
+  </test> <!-- Product_store_contact(failed) -->
+</suite> <!-- Failed suite [testNGFramework] -->
